@@ -1,5 +1,5 @@
 # BrainfuckTextGenerator
-C++ program that reads text from an input file and generates Brainfuck code that, when executed, prints the text to the console
+C++ program that reads text from an input file and generates code in the Brainfuck programming language that, when executed, prints the text to the console
 
 ## How It Works
 * The program reads each character from the input file.
@@ -8,9 +8,12 @@ C++ program that reads text from an input file and generates Brainfuck code that
 
 ## Example
 Text:  
+```
 Hello world!
+```
 
 Output:  
+```
 ++++++++++  
 [  
   >+++++++  
@@ -39,3 +42,4 @@ Output:
 >++++++++.  
 >.  
 >+++.  
+```
